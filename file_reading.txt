@@ -1,0 +1,7 @@
+ifstream file("path")
+string line;
+string field;
+
+getline(file, line);
+stringstream ss(line);
+getline(ss, field, ' ') // third arg is delimiter 
