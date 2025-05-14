@@ -31,7 +31,7 @@ int main(){
             second = first;
             first = arr[i];
         }
-        else if (arr[i] > second){
+        else if (arr[i] < first && arr[i] > second){
             second = arr[i];
         }
     }
