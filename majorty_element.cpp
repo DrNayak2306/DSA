@@ -44,7 +44,7 @@ int main(){
         }
         else cnt--;
     }
-    if (cnt > 0){
+    if (cnt > n/2){
         cout << arr[maj] << endl;
         return 0;
     }
