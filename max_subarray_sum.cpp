@@ -42,6 +42,7 @@ int main(){
             sum = 0;
         }
     }
+    
     cout << res << endl;
     return 0;
 }
