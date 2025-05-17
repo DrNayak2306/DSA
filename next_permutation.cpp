@@ -26,12 +26,39 @@ void permute(map<int, bool> &mpp, int i, vector<int> &res){
 int main(){
     int n;
     cin >> n;
-    map<int, bool> mpp;
-    for (int i=0, j; i<n; i++){
-        cin >> j;
-        mpp.emplace(j, false);
+    vector<int> arr(n);
+    for (int i=0; i<n; i++){
+        cin >> arr[i];
     }
-    vector<int> res;
-    permute(mpp, 0, res);
+
+    // brute-force
+    // map<int, bool> mpp;
+    // for (int i=0; i<n; i++){
+    //     mpp.emplace(arr[i], false);
+    // }
+    // vector<int> res;
+    // permute(mpp, 0, res);
+
+    // optimal
+    int ind = -1;
+    for (int i=n-2; i>=0; i--){
+        if (arr[i] < arr[i+1]){
+            ind = i;
+            break;
+        }
+    }
+    if (ind != -1){
+        for (int i=n-1; i>=ind+1; i--){
+            if (arr[i] > arr[ind]){
+                swap(arr[i], arr[ind]);
+                break;
+            }
+        }
+    }
+    reverse(arr.begin()+ind+1, arr.end());
+    for (int i=0; i<n; i++){
+        cout << arr[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
