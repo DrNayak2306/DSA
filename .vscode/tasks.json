@@ -7,14 +7,14 @@
       "command": "sh",
       "args": [
         "-c",
-        "g++ main.cpp -o main && ./main < input.txt > output.txt"
+        "g++ \"${file}\" && ./a.out < input.txt > output.txt"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
       },
       "problemMatcher": [],
-      "detail": "Compile and run C++ program with input/output redirection"
+      "detail": "Compile and run current C++ file with input/output redirection"
     }
   ]
 }
