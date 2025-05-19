@@ -1,4 +1,4 @@
-# [Next permutation](https://github.com/DrNayak2306/DSA/blob/main/next_permutation.cpp)
+# [Next permutation](../Code/next_permutation.cpp)
 
 ## BRUTE
 Find all permutations and sort them & linear search.

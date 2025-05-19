@@ -1,4 +1,4 @@
-# [Maximum subarray sum](https://github.com/DrNayak2306/DSA/blob/main/max_subarray_sum.cpp)
+# [Maximum subarray sum](../Code/max_subarray_sum.cpp)
 
 ## Careful with variable initialization; res <- INT_MIN
 

@@ -1,4 +1,4 @@
-## [Rotate array by d places](https://github.com/DrNayak2306/DSA/blob/main/d_rotate.cpp)  
+## [Rotate array by d places](../Code/d_rotate.cpp)  
 if A = [[1],[2],[3],[4]] and d point lies after [2],
 then d_rotate(A) = [[3],[4],[1],[2]] which is the result achieved by:
 1. rev(A) = [[4],[3],[2],[1]]

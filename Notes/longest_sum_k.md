@@ -1,4 +1,4 @@
-# [Longest subarray with sum k](https://github.com/DrNayak2306/DSA/blob/main/subarray_sum_k.cpp)  
+# [Longest subarray with sum k](../Code/subarray_sum_k.cpp)  
 
 ## BRUTE 
 Sum of all possible subarrays.

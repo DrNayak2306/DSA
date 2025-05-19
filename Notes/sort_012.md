@@ -1,4 +1,4 @@
-# [Sort array of 0s,1s,2s](https://github.com/DrNayak2306/DSA/blob/main/sort_012.cpp)
+# [Sort array of 0s,1s,2s](../Code/sort_012.cpp)
 
 ## BRUTE
 Sort

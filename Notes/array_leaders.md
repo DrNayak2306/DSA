@@ -1,4 +1,4 @@
-# [Leaders in an array](https://github.com/DrNayak2306/DSA/blob/main/leaders_in_array.cpp)
+# [Leaders in an array](../Code/leaders_in_array.cpp)
 
 ## BRUTE
 Check with every other element for each element.

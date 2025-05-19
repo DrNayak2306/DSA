@@ -1,4 +1,4 @@
-# [Longest consecutive subsequence]
+# [Longest consecutive subsequence](../Code/longest_consecutive_subsequence.cpp)
 
 ## BRUTE FORCE
 For every element, check if consecutive sequence exists

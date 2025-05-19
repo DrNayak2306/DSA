@@ -1,4 +1,4 @@
-# [Stable rearrange by alternating sign](https://github.com/DrNayak2306/DSA/blob/main/alternate_sign.cpp)
+# [Stable rearrange by alternating sign](../Code/alternate_sign.cpp)
 
 ## BRUTE
 Copy pos and neg in separate arrays.

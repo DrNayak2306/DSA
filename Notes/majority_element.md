@@ -1,4 +1,4 @@
-# [Majority element](https://github.com/DrNayak2306/DSA/blob/main/majorty_element.cpp)
+# [Majority element](../Code/majorty_element.cpp)
 
 ## BRUTE
 Double for loop

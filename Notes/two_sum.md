@@ -1,4 +1,4 @@
-# [2 Sum](https://github.com/DrNayak2306/DSA/blob/main/two_sum.cpp)  
+# [2 Sum](../Code/two_sum.cpp)  
 
 ## BRUTE
 Exhaustively check all pairs.
