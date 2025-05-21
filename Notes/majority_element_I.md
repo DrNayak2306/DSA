@@ -1,4 +1,4 @@
-# [Majority element](../Code/majorty_element.cpp)
+# [Majority element](../Code/majorty_element_I.cpp)
 
 ## BRUTE
 Double for loop
